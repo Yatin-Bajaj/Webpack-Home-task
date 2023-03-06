@@ -1,6 +1,7 @@
-const API_KEY = "56f5a71177604252af47e1a08245396a";
+const API_KEY = "";
+
 const env = {
-  youtube_data_url: "https://www.googleapis.com/youtube/v3/search?key=AIzaSyD9-a8Pihxz8mPAK8TN-YQgSDcdh2uTlfI&type=video&part=snippet&maxResults=15&q=javaScript",
+  youtube_data_url: `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&type=video&part=snippet&maxResults=15&q=javaScript`,
 }
 
 export const fetchYoutubeData = async () => {

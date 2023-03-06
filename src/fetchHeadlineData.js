@@ -1,4 +1,4 @@
-const API_KEY = "56f5a71177604252af47e1a08245396a";
+const API_KEY = "";
 
 
 export const fetchHeadlineData = async () => {
